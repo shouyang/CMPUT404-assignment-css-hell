@@ -1,0 +1,36 @@
+p, a, i {
+
+    font-style: italic;
+    font-family: "garamond", "cursive", serif;
+    font-size: 125%;
+    font-weight: bold;
+    
+    text-indent: 1em;
+    margin-top: .25em;
+    margin-bottom: .25em;
+}
+
+
+img {
+    border: 10px solid black;
+
+    display: block;
+    margin-left: auto;
+    margin-left: auto;
+    width: 50%;
+
+    filter: grayscale(100%);
+}
+
+body {
+    background: burlywood    
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+
+    font-family: "garamond", "cursive", serif;
+    font-weight: bold;
+    font-variant: small-caps; 
+    font-style: italic;
+}

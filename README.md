@@ -12,6 +12,18 @@ Read this comic http://theoatmeal.com/comics/design_hell
 
 git clone https://github.com/abramhindle/CMPUT404-assignment-css-hell.git
 
+
+Part 1
+=================
+I styled the pages in the form of a cursive manuscript.
+
+Changes in "gutenberg/site.css":
+    * Changed background color to a deeper brownish color called burlywood.
+    * Changed paragraphs, links, and headers to be a old timey cursive writing form
+    * Filtered images into greyscale.
+
+
+
 License/Copyright
 =================
 
