@@ -1,0 +1,106 @@
+body {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+header {
+    text-align: center;
+    background-color: #006599;
+}
+
+header hr 
+{
+    color: #d3803e;
+    background-color: #d3803e;
+    border-color: #d3803e;
+    height: 30px;
+}
+
+
+header h1 {
+    font-size: 300%;
+    color: white;
+}
+
+header nav
+{
+    font-size: 150%;
+    background: #393939;
+}
+
+header nav a
+{
+    color: white;
+    text-decoration: none;
+}
+
+header nav hr
+{
+    color: #0397f7;
+    background-color: #0397f7;
+    border-color: #0397f7;
+    height: 2px;
+}
+
+footer {
+    text-align: center;
+}
+
+
+main {
+    float: left;
+    width: 75%;
+}
+
+aside {
+    padding: 1%;
+    background: #e7e7e7;
+    float: left;
+    width: 23%;
+}
+
+aside h2 {
+    text-align: center;
+}
+
+aside h5 {
+    text-align: center;
+    color: #006599;
+}
+
+div {
+    width: 100%;
+    overflow: auto;
+}
+
+div h2
+{
+    margin-top: 1%;
+    margin-bottom: 0%;
+}
+
+
+div div {
+    float: left;
+    width: 70%;
+}
+
+div img {
+    float: left;
+    height: 100%;
+    width:  10%;
+    vertical-align: bottom ;
+}
+
+.footer {
+    text-align: center;
+    background-color: #d3803e;
+}
+
+.footer a
+{
+    color:white;
+    text-decoration: none;
+}
