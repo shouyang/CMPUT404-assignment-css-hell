@@ -1,5 +1,5 @@
 body {
-    width: 75%;
+    width: 65%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -16,23 +16,46 @@ header hr
     background-color: #d3803e;
     border-color: #d3803e;
     height: 30px;
+    box-shadow: 0px 3px 2px 0px rgba(0,0,0,0.83);
 }
-
 
 header h1 {
     font-size: 300%;
     color: white;
+
+    text-shadow: 0px 0px 75px white;
 }
 
 header nav
 {
+    padding-top: 15px;
     font-size: 150%;
     background: #393939;
+
+    background: rgba(19,19,19,1);
+    background: -moz-linear-gradient(top, rgba(19,19,19,1) 0%, rgba(55,55,55,1) 64%, rgba(76,76,76,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(19,19,19,1)), color-stop(64%, rgba(55,55,55,1)), color-stop(100%, rgba(76,76,76,1)));
+    background: -webkit-linear-gradient(top, rgba(19,19,19,1) 0%, rgba(55,55,55,1) 64%, rgba(76,76,76,1) 100%);
+    background: -o-linear-gradient(top, rgba(19,19,19,1) 0%, rgba(55,55,55,1) 64%, rgba(76,76,76,1) 100%);
+    background: -ms-linear-gradient(top, rgba(19,19,19,1) 0%, rgba(55,55,55,1) 64%, rgba(76,76,76,1) 100%);
+    background: linear-gradient(to bottom, rgba(19,19,19,1) 0%, rgba(55,55,55,1) 64%, rgba(76,76,76,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#131313', endColorstr='#4c4c4c', GradientType=0 );
+    /* https://www.cssmatic.com/gradient-generator#' */
 }
 
 header nav a
 {
+    padding-left: 5px;
+    padding-right: 5px;
+
     color: white;
+    text-decoration: none;
+}
+
+header nav a:hover
+{
+
+    color: #0397f7;
     text-decoration: none;
 }
 
@@ -42,7 +65,16 @@ header nav hr
     background-color: #0397f7;
     border-color: #0397f7;
     height: 2px;
+
+    box-shadow: none;
 }
+
+header nav span 
+{
+    padding-left: 15px;
+    color: orange;
+}
+
 
 footer {
     text-align: center;
@@ -59,15 +91,21 @@ aside {
     background: #e7e7e7;
     float: left;
     width: 23%;
-}
-
-aside h2 {
     text-align: center;
+
 }
 
 aside h5 {
+    font-size: 115%;
     text-align: center;
     color: #006599;
+
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+aside p {
+    font-size: 90%;
 }
 
 div {
@@ -77,10 +115,19 @@ div {
 
 div h2
 {
-    margin-top: 1%;
+    margin-top: .25%;
     margin-bottom: 0%;
+
+    padding-left: 15px;
 }
 
+div p {
+    margin-top: 0.25%;
+    margin-bottom: 1%;
+
+    padding-left: 15px;
+
+}
 
 div div {
     float: left;
